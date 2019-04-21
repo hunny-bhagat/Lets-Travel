@@ -14,12 +14,8 @@ body {
 
 .list-inline li {
   display: inline;
-  
 }
 
-.list-inline li + li {
-  margin-left: 20px;
-}
 
 a {
   align-content: center;
@@ -50,14 +46,14 @@ background-color: #566573;
   background-position: center;
 } 
 #spn-1{
-  color: black;
+  color: darkblue;
   font-size: 70px;
   font-weight: bold;
   font-family: 'Roboto slab';
 }
 
 #spn-2{
-  color: blue; 
+  color: crimson; 
   font-size: 70px;
   font-weight: bold;
   font-family: 'Roboto slab';
