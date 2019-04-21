@@ -1,11 +1,9 @@
 body {
   font-family: 'Roboto Slab', 'Georgia', 'Times New Roman';
-  color: rgba(250, 10, 10, 1);
 }
 
 .main-div {
   background-color: #34495E;
-  height: 80px;
   padding:0 20px;
   display: flex;
   align-items: center;
@@ -14,11 +12,12 @@ body {
   border-bottom: 1px solid white;
 }
 
-ul, li {
+.list-inline li {
   display: inline;
+  
 }
 
-li + li {
+.list-inline li + li {
   margin-left: 20px;
 }
 
@@ -45,7 +44,7 @@ background-color: #566573;
   width: 100%;
   height: 500px;
   background-image: url('b-g.jpg');
-  opacity: 0.5;
+  opacity: 0.4;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,29 +57,30 @@ background-color: #566573;
 }
 
 #spn-2{
-  color: #232322;
+  color: blue; 
   font-size: 70px;
   font-weight: bold;
   font-family: 'Roboto slab';
 }
 
-h1 ul {
-  padding: 0;
+.nav-item {
+  position: relative;
+}
+
+#vaud .sub-menu-list {
   position: absolute;
-  top: 46px;
-  left: 0;
-  width: 200px;
+  top: 35px;
+  left: 4px;
+  width: 105px;
+  padding: 5px 5px;
   display: none;
-}
-
-h1 ul li {
   background: #34495E;
-  display: block;
-  color: #fff;
+  z-index: 1;
 }
 
-h1 ul li:hover {background: #566573;}
-
-h1:hover ul {
-  display: block;
+#vaud .nav-item:hover .sub-menu-list {
+  display: block; 
+}
+::selection {
+  background-color: skyblue;
 }
