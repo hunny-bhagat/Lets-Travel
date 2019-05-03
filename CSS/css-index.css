@@ -37,7 +37,7 @@ nav ul li img {
 
 .photo-div {
   display: flex;
-  background-image: url('/Images/b-g.jpg');
+  background-image: url('Images/B_Ground.jpg');
   justify-content: space-around;
   align-items: center;
   text-align: center;
