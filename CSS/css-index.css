@@ -1,10 +1,9 @@
 body {
   font-family: 'Roboto Slab', 'Georgia', 'Times New Roman';
-  background-color: transparent;
+  *background-color: transparent;
 }
 
 .nav-bar {
-  *background-image: url('Images/B-Ground.JPG');
   background: #17202A;
   opacity: 0.8;
   padding: 0 20px;
@@ -35,13 +34,11 @@ nav ul li img {
   background-color: #566571;
 }
 
-.photo-div {
+/* #Main-photo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-
-  /* Some Image Stuff */
   background-image: url('../Images/B_Ground.jpg');
   width: 100%;
   height: 690px;
@@ -49,11 +46,19 @@ nav ul li img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  }
+*/
+#Main-photo {
+  width: 100%;
+  height: 690px;
 }
 
-div{
-  width: 100%;
-  padding: 2px;
+
+#Main-photo img {
+    width: 100%;
+    height: 690px;
+    background: transparent;
+    opacity: 1;
 }
 
 #spn-1{
@@ -65,8 +70,7 @@ div{
 
 #spn-2{
   color: rgba(255, 0, 0, 0.8);
-  opacity: 0.9;
-  /* background: transparent; */
+  opacity: 0.85;
   font-size: 62px;
   font-weight: bold;
   font-family: 'Roboto Slab';
