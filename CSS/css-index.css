@@ -44,7 +44,7 @@ nav ul li img {
 
 #Main-photo img {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: transparent;
     opacity: 1;
 }
