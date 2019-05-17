@@ -8,15 +8,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Travel-Vaud</title>
   <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <link rel="icon" type="image/png" href="Images/L-T.PNG">
   <link rel="stylesheet" href="CSS/hover-min.css">
   <link rel="stylesheet" href="CSS/css-index.css">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
+         
 <nav class="nav-bar">
   
    <ul>
@@ -32,7 +34,7 @@
               <a class="hvr-fade" href="#">Upcoming events</a>
          </li>
          <li>
-              <a class="hvr-fade" href="#">Sightseeing</a>
+              <a class="hvr-fade" href="sightseeing.html">Sightseeing</a>
          </li>
          <li>
               <a class="hvr-fade" href="#">Contact</a>
@@ -55,51 +57,55 @@
    <img class="mySlides" src="Slide-Images/4.JPG">
    <img class="mySlides" src="Slide-Images/5.jpg">
    
-   <script src="index.js"></script>
+   <script src="JS/index.js"></script>
 </div>
 
 <!-- Une autre partie après le premier div-->
 
 <section class="hero">
    <ul>
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Montreux<img src="Images/Montreux1.jpg" alt="Montreux"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Lausanne Palace<img src="Images/Palace.jpg" alt="Lausanne Palace"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Ouchy-Olympic<img src="Images/Ouchy.jpg" alt="Ouchy-Olympic"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Chillon Castle<img src="Images/Chateau-de-Chillon.jpg" alt="Chillon Castle"></a>
          </li>
 
-         <li>
-            <a href="#">Jazz Festival<img src="Images/Jazz.jpg" alt="Jazz Festival"></a>
+         <li data-aos="zoom-in">
+         <a href="#">Jazz Festival<img src="Images/Jazz.jpg" alt="Jazz Festival"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Lake Leman & Cruises<img src="Images/B_Ground.jpg" alt="Lake Leman & Cruise"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">AQUATIS Aquarium<img src="Images/Aquarium.JPG" alt="Lausanne Aquarium"></a>
          </li>
 
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Lausanne Cathedral<img src="Images/Cathedral.jpg" alt="Lausanne Cathedral"></a>
          </li>
-         <li>
+         <li data-aos="zoom-in">
             <a href="#">Rock of Naye<img src="Images/Rocher.JPG" alt="Rocher de Naye"></a>
          </li>
    </ul>
+
 </section>      
-      
-      
+         
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
 </body>
 
 <footer>
